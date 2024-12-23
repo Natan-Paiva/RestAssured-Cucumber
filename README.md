@@ -1,5 +1,5 @@
 ## Rest API Testing (Automation) from Scratch-Rest Assured Java (Part 2)
-### This is the first part of the API Testing with RestAssured.
+### This is the second part of the API Testing with RestAssured.
 ### This part cover the following concepts:
 * Framework using Rest Assured and Cucumber
 ## Requirements
