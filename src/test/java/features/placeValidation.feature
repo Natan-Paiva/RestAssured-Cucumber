@@ -1,5 +1,5 @@
 Feature: Validating Place API's
-  @AddPlace #tag used on test runner to select specific test cases
+  @AddPlace @Regression #tag used on test runner to select specific test cases
   Scenario Outline: Verify if place is being successfully added using AddPlaiceAPI
     Given Add Place payload "<name>" "<language>" "<address>"
     When user calls "AddPlaceAPI" wiht "Post" http request
@@ -12,7 +12,7 @@ Feature: Validating Place API's
     | name |  language  | address |
     |Test1 |  English   | city x  |
   #  |Test2 |  Portuguese| city z  |
-  @DeletePlace
+  @DeletePlace @Regression
   Scenario: Verify if Delete Place functionality is working
     Given DeletePlace Payload
     When user calls "DeletePlaceAPI" wiht "Post" http request
